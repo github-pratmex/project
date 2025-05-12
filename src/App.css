@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: #2563eb;
+}
+
+.upload-form {
+  margin-top: 20px;
+}
+
+.upload-form input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.upload-form button {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-form button:disabled {
+  background-color: #9ca3af;
+}
+
+.result-card {
+  margin-top: 30px;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.result-card.positive {
+  border-left: 8px solid #ef4444;
+}
+
+.result-card.negative {
+  border-left: 8px solid #10b981;
+}
